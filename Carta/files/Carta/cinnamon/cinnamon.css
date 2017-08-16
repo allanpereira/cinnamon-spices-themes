@@ -1,6 +1,6 @@
 stage {
-    font-family: sans, Sans-Serif;
-    font-size: 9pt;
+    font-family: "Roboto", "Open Sans", sans, Sans-Serif;
+    font-size: 10pt;
     color: rgb(207, 216, 220);
 }
 
@@ -1378,7 +1378,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .menu-application-button:highlighted {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .menu-application-button-selected {
@@ -1386,7 +1386,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .menu-application-button-selected:highlighted {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .menu-application-button-label:ltr {
@@ -1438,7 +1438,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .menu-selected-app-title {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .menu-selected-app-description {
@@ -1503,6 +1503,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .window-list-box {
+    font-size: 10pt;
     spacing: 6px;
     padding-left: 10px;
     padding-top: 1px;
@@ -1521,16 +1522,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .window-list-item-label {
-    font-weight: bold;
     width: 15em;
     min-width: 5px;
 }
 
 .window-list-item-box {
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: normal;
     background-image: none;
     padding-top: 0;
-    padding-left: 8px;
     padding-right: 8px;
     transition-duration: 100;
     color: rgba(255, 255, 255, 0.6);
@@ -1565,13 +1565,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .window-list-item-box:active, .window-list-item-box:checked, .window-list-item-box:focus {
-    color: rgb(207, 216, 220);
-    border-color: rgb(207, 216, 220);
+    color: rgb(255, 255, 255);
+    border-top: solid 2px rgb(33, 150, 243);
 }
 
 .window-list-item-box:hover {
-    color: rgb(97, 108, 113);
-    background-color: rgb(207, 216, 220);
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
 }
 
 .window-list-item-demands-attention {
